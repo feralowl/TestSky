@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+*.umap filter=lfs diff=lfs merge=lfs -text binary
+*.pak filter=lfs diff=lfs merge=lfs -text binary
+*.exe filter=lfs diff=lfs merge=lfs -text binary
+*.uasset filter=lfs diff=lfs merge=lfs -text binary
